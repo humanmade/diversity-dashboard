@@ -92,7 +92,7 @@ mergeData <- function(data) {
                       'Self-described',
                       'White/Caucasian/White Other'
   )
-  data$ethnicity <- ifelse(data$ethnicity %in% radioEthnicity, data$ethnicity,"Self Described")
+  data$ethnicity <- ifelse(data$ethnicity %in% radioEthnicity, data$ethnicity,"Self-described")
 
   data
 }
