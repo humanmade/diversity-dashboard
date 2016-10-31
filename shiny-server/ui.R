@@ -24,8 +24,10 @@ shinyUI(
                       sidebarLayout(
                         sidebarPanel(
                           tags$div(HTML('<div style="margin-bottom: 20px">
-                            <p>We’re taking steps to build a more diverse company, and one of these steps is being open and transparent about the people who, together, make up ustwo.</p>
-                            <p>We’ve built this using an open source tool, which you can find <a href="https://github.com/bufferapp/diversity-dashboard">here</a>. If you’ve got questions – let us know!</p>
+                            <p>We’re taking steps to build a more diverse company, and one of these is being open and transparent about the people who, together, make up ustwo.</p>
+                            <p>We’ve built this using an <a href="https://github.com/bufferapp/diversity-dashboard">open source tool</a>. If you’ve got questions – <a href="mailto:hello@ustwo.com">let us know</a>!</p>
+                            <p>Our data is dynamic and complex, so it might not always display beautifully. You can access the <a href="https://docs.google.com/spreadsheets/d/1h3QCyRQuL37UJR_Fm_zgkCpQem1wmHdP3om-JsQ-EIk/pubhtml">raw data</a> if there’s anything you’d like to check.</p>
+                            <p style="color: #888; font-size: 14px; font-style: italic;">It’s important to note that due to Swedish data storage and privacy protection law, our Malmö studio is not included in our global dashboard.</p>
                           </div>')),
                           selectInput("dataset", "Show diversity data for",choices = c("The ustwo Team")),
                           radioButtons("plotType", "Plot type",c("Bar"="b", "Pie"="p")),
