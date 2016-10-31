@@ -23,6 +23,10 @@ shinyUI(
                       tags$link(rel = "stylesheet", type = "text/css", href = "button.css"),
                       sidebarLayout(
                         sidebarPanel(
+                          tags$div(HTML('<div style="margin-bottom: 20px">
+                            <p>We’re taking steps to build a more diverse company, and one of these steps is being open and transparent about the people who, together, make up ustwo.</p>
+                            <p>We’ve built this using an open source tool, which you can find <a href="https://github.com/bufferapp/diversity-dashboard">here</a>. If you’ve got questions – let us know!</p>
+                          </div>')),
                           selectInput("dataset", "Show diversity data for",choices = c("The ustwo Team")),
                           radioButtons("plotType", "Plot type",c("Bar"="b", "Pie"="p")),
                           checkboxGroupInput("genderFilter", "Filter by gender",
