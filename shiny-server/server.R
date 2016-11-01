@@ -75,6 +75,7 @@ shinyServer(function(input, output) {
           n1 <- nPlot(~age_range, data = data[order(data[[by]]),],type="pieChart",dom=paste(by,"Plot",sep=""))
         }
         n1$params$width <- 700
+        n1$chart(showLabels = FALSE)
         return(n1)
 
       } else {
