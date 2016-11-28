@@ -168,7 +168,7 @@ shinyServer(function(input, output) {
                                                               'Mixed/Multiple ethnic groups',
                                                               'Other ethnic group',
                                                               'Pacific Islander',
-                                                              'Prefer not to say',
+                                                              'Prefer Not to Answer',
                                                               'Self-described',
                                                               'White/Caucasian/White Other'))
   output$ethnicityTimeSeries <- timeSeriesPlot('ethnicity',levels=c('Asian/Asian Other',
@@ -178,7 +178,7 @@ shinyServer(function(input, output) {
                                                                     'Mixed/Multiple ethnic groups',
                                                                     'Other ethnic group',
                                                                     'Pacific Islander',
-                                                                    'Prefer not to say',
+                                                                    'Prefer Not to Answer',
                                                                     'Self-described',
                                                                     'White/Caucasian/White Other'))
 
