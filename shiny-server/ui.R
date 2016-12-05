@@ -21,6 +21,8 @@ shinyUI(
                             tags$meta(property="og:description", content="With this Dashboard we share our team data in the specific areas of age, gender, and ethnicity.")
                       ),
                       tags$link(rel = "stylesheet", type = "text/css", href = "button.css"),
+                      tags$link(rel = "ico", type = "image/x-icon", href = "/favicon.ico"),
+                      tags$link(rel = "ico", type = "image/png", href = "/favicon.png"),
                       sidebarLayout(
                         sidebarPanel(
                           tags$div(HTML('<div style="margin-bottom: 20px">
