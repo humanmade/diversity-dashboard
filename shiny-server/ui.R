@@ -38,7 +38,7 @@ shinyUI(
                                              selected=c('Male', 'Female', 'Self-described', 'Prefer Not to Answer')
                           ),
                           checkboxGroupInput("areaFilter", "Filter by area",
-                                             c('Biz Dev',
+                                             c('Biz',
                                                'Coaches',
                                                'Design',
                                                'Development',
@@ -48,7 +48,7 @@ shinyUI(
                                                'Marketing',
                                                'Operations',
                                                'Other'),
-                                             selected=c('Biz Dev',
+                                             selected=c('Biz',
                                                         'Coaches',
                                                         'Design',
                                                         'Development',
