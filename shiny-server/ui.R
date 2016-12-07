@@ -66,7 +66,7 @@ shinyUI(
                                                'Mixed/Multiple ethnic groups',
                                                'Other ethnic group',
                                                'Pacific Islander',
-                                               'Prefer not to say',
+                                               'Prefer Not to Answer',
                                                'Self-described',
                                                'White/Caucasian/White Other'
                                              ),
@@ -76,7 +76,7 @@ shinyUI(
                                                         'Mixed/Multiple ethnic groups',
                                                         'Other ethnic group',
                                                         'Pacific Islander',
-                                                        'Prefer not to say',
+                                                        'Prefer Not to Answer',
                                                         'Self-described',
                                                         'White/Caucasian/White Other'
                                              )),
